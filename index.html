@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodWave - Share Your Vibe in Real-Time</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ MoodWave</h1>
+            <p class="subtitle">Share your vibe with the world in real-time</p>
+        </header>
+
+        <div class="room-selector">
+            <div class="label">Choose Your Vibe Room:</div>
+            <div class="rooms">
+                <button class="room-btn active" data-room="cosmic">🌌 Cosmic</button>
+                <button class="room-btn" data-room="chill">🌊 Chill</button>
+                <button class="room-btn" data-room="energetic">⚡ Energetic</button>
+                <button class="room-btn" data-room="zen">🧘 Zen</button>
+                <button class="room-btn" data-room="party">🎉 Party</button>
+            </div>
+        </div>
+
+        <div class="canvas-container">
+            <canvas id="vibeCanvas"></canvas>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-label">Active Vibes:</span>
+                    <span id="activeVibes">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Online:</span>
+                    <span id="onlineCount">1</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="vibe-selector">
+            <div class="label">Send a Vibe:</div>
+            <div class="vibes">
+                <button class="vibe-btn" data-vibe="😊" data-color="#FFD700">😊 Happy</button>
+                <button class="vibe-btn" data-vibe="💖" data-color="#FF69B4">💖 Love</button>
+                <button class="vibe-btn" data-vibe="🔥" data-color="#FF4500">🔥 Fire</button>
+                <button class="vibe-btn" data-vibe="🌈" data-color="#9370DB">🌈 Rainbow</button>
+                <button class="vibe-btn" data-vibe="⭐" data-color="#F0E68C">⭐ Star</button>
+                <button class="vibe-btn" data-vibe="💫" data-color="#87CEEB">💫 Magic</button>
+                <button class="vibe-btn" data-vibe="🎵" data-color="#4169E1">🎵 Music</button>
+                <button class="vibe-btn" data-vibe="🌺" data-color="#FF1493">🌺 Flower</button>
+            </div>
+        </div>
+
+        <div class="wave-container">
+            <canvas id="waveCanvas"></canvas>
+            <div class="wave-label">Collective Mood Wave</div>
+        </div>
+
+        <div class="message-feed">
+            <div class="label">Recent Vibes</div>
+            <div id="messageList"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.7.4.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
